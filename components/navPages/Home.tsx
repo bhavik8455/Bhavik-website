@@ -6,7 +6,6 @@ import Typewriter from 'typewriter-effect';
 import scrollDownAnimation from '@/public/scroll-down.json';
 import { jetbrainsMono } from '@/app/font';
 import Image from 'next/image';
-import BhavikLogo from "@/public/logo.JPG";
 import { MapPin } from 'lucide-react';
 import Socials from '../Socials';
 import { InteractiveHoverButton } from '../ui/interactive-hover-button';
@@ -78,7 +77,7 @@ export function Home() {
                     onMouseLeave={() => setIsHovered(false)}
                 >
                     <Image
-                        src={BhavikLogo}
+                        src="/logo.JPG"
                         alt="Bhavik Solanki"
                         fill
                         className="object-cover rounded-full"
