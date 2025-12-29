@@ -3,9 +3,6 @@
 Welcome to my portfolio website:  
 🌐 **Live Demo : [bhavik8455.vercel.app](https://bhavik8455.vercel.app)**  
 This site showcases who I am — developer, creator, and builder — in the simplest yet most impactful way.
-
-![Portfolio Preview](./public/preview.png)
-
 ---
 
 ## 📌 About Me
