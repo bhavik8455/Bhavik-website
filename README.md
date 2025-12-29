@@ -65,18 +65,6 @@ If you like my work, let’s get in touch:
 
 ---
 
-## 📄 License
-
-This project is open source and free to use. Feel free to fork and build on top of it, just give credit where due.
-
----
-
-### 💡 Bonus Tip
-
-Want to use this portfolio as a base? Go for it. Clone it, customize it, and make it yours.
-
----
-
 > Built with passion, pixels, and a little bit of 💪 gym discipline.
 
 ---
