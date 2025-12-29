@@ -3,9 +3,6 @@
 Welcome to my portfolio website:  
 🌐 **Live Demo : [bhavik8455.vercel.app](https://bhavik8455.vercel.app)**  
 This site showcases who I am — developer, creator, and builder — in the simplest yet most impactful way.
-
-![Portfolio Preview](./public/preview.png)
-
 ---
 
 ## 📌 About Me
@@ -65,18 +62,6 @@ If you like my work, let’s get in touch:
 * 🔗 [LinkedIn](https://linkedin.com/in/bhavik8455)
 * 💻 [GitHub](https://github.com/bhavik8455)
 * 🐦 [X/Twitter](https://x.com/bhavik8455)
-
----
-
-## 📄 License
-
-This project is open source and free to use. Feel free to fork and build on top of it, just give credit where due.
-
----
-
-### 💡 Bonus Tip
-
-Want to use this portfolio as a base? Go for it. Clone it, customize it, and make it yours.
 
 ---
 
