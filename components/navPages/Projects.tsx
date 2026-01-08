@@ -71,6 +71,7 @@ export function Projects() {
       <div className="flex flex-col items-center justify-center gap-2">
         <p className="flex gap-2 text-[#e8390d]">
           Made with <Heart />
+         and passion
         </p>
         <h1 className="text-4xl md:text-6xl text-center font-bold">
           My Projects

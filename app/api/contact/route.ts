@@ -30,6 +30,7 @@ export async function POST(req: NextRequest) {
             },
             body: JSON.stringify({
                 Messages: [
+                    // Email to you (notification)
                     {
                         From: {
                             Email: "solankibhavik9112@gmail.com",
@@ -37,7 +38,7 @@ export async function POST(req: NextRequest) {
                         },
                         To: [
                             {
-                                Email: "solankibhavik92@gmail.com", // Replace with your email to receive messages
+                                Email: "solankibhavik92@gmail.com",
                                 Name: "Bhavik",
                             },
                         ],
@@ -54,6 +55,34 @@ export async function POST(req: NextRequest) {
                             Email: email,
                             Name: name,
                         },
+                    },
+                    // Thank you email to the sender
+                    {
+                        From: {
+                            Email: "solankibhavik9112@gmail.com",
+                            Name: "Bhavik Solanki",
+                        },
+                        To: [
+                            {
+                                Email: email,
+                                Name: name,
+                            },
+                        ],
+                        Subject: "Thank You for Reaching Out! 🙏",
+                        TextPart: `Hi ${name},\n\nThank you so much for taking the time to reach out to me! I truly appreciate your effort in contacting me.\n\nI have received your message and will get back to you as soon as possible.\n\nHere's a copy of your message:\n"${message}"\n\nBest regards,\nBhavik Solanki`,
+                        HTMLPart: `
+              <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+                <h2 style="color: #e8390d;">Thank You for Reaching Out! 🙏</h2>
+                <p>Hi <strong>${name}</strong>,</p>
+                <p>Thank you so much for taking the time to reach out to me! I truly appreciate your effort in contacting me.</p>
+                <p>I have received your message and will get back to you as soon as possible.</p>
+                <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin: 20px 0;">
+                  <p style="margin: 0; color: #666;"><strong>Your message:</strong></p>
+                  <p style="margin: 10px 0 0 0; color: #333;">"${message.replace(/\n/g, "<br>")}"</p>
+                </div>
+                <p>Best regards,<br><strong>Bhavik Solanki</strong></p>
+              </div>
+            `,
                     },
                 ],
             }),
